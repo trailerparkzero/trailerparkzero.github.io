@@ -21,7 +21,7 @@
 	#banner {
 		background-image: url("../../images/banner.jpg");
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: small
 		background-position: auto;
 		-ms-behavior: url("css/ie/backgroundsize.min.htc");
 	}

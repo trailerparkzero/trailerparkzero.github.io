@@ -112,6 +112,22 @@ section.special, article.special {
 	text-align: center;
 }
 
+section.hoon_banner {
+	position: relative;
+	width: 100%;
+	transform: scale(1);
+	background-attachment: scroll, scroll, scroll, fixed;
+	background-color: #645862;
+	background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/banner.jpg");
+	background-position: bottom left, bottom right, top left, top center;
+	background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+	background-size: 25em, 25em, auto, cover;
+	color: white;
+	cursor: default;
+	padding: 6em 0;
+	text-align: center;
+}
+
 header.major {
 	padding-bottom: 2em;
 }
@@ -279,32 +295,6 @@ input[type="email"] {
 	display: block;
 }
 
-#about_container {
-  display: flex;
-}
-
-#about_image {
-	width: 50%;
-	float: left;
-	margin: 3em 3em 3em 3em;
-}
-
-#about_text {
-	width: 30%;
-	float: right;
-	margin: 2em 2em 2em 2em;
-	padding: 0.5em 0.5em 0.5em 0.5em;
-}
-
-#about_image_2 {
-	width: 40%;
-	float: right;
-	margin: 3em 3em 3em 3em;
-}
-
-#about_instructor {
-	text-transform: none;
-}
 
 /* Icon */
 
@@ -1113,5 +1103,48 @@ body.index #main {
 }
 
 #difftext {
+	color: white;
+	text-align: center;
+}
+#difftext .italic {
+	font-style: italic;
+}
+#difftext .big {
+	font-size: 1.5em;
+}
+#difftext .small {
+	font-size: .7em;
+}
+
+#services_container {
+  display: flex;
+}
+
+#services_image {
+	width: 35%;
+	padding: 2em 2em 2em 2em;
+}
+
+#services_text {
+	width: 65%;
+	text-align: left;
+	padding: 2em 2em 2em 2em;
+}
+
+#about_container {
+  display: flex;
+}
+
+#about_image {
+	width: 30%;
+	float: right;
+	padding: 2em 2em 2em 2em;
+}
+
+#about_text {
+	width: 70%;
+	text-align: left;
+	float: left;
+	padding: 2em 2em 2em 2em;
 	color: white;
 }
