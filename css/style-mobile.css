@@ -164,17 +164,26 @@ ul.buttons {
 	margin: 1em 2em 1em 2em;
 }
 
-#about_image_2 {
-	width: 80%;
-	margin: 1em 2em 1em 2em;
-}
-
 #about_text {
 	width: 80%;
 	margin: 1em 2em 1em 2em;
 	padding: 0.5em 1em 0.5em 1em;
 }
 
+#services_container {
+  display: inline-block;
+}
+
+#services_image {
+	width: 80%;
+	margin: 1em 2em 1em 2em;
+}
+
+#services_text {
+	width: 80%;
+	margin: 1em 2em 1em 2em;
+	padding: 0.5em 1em 0.5em 1em;
+}
 /* Main */
 
 #main {
